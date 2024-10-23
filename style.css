@@ -1,0 +1,129 @@
+
+
+body {
+	background: #F3EEEA;
+	color: #776B5D;
+	font-family: "Lora", serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;	
+  	font-size: 20px;
+	font-weight: lighter;
+}
+
+
+h1, h2, h3 {
+		font-family: "Roboto", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		color: #654520;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	font-style: italic;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: rgb( 40,40,40);
+	font-weight: 600;
+	font-family: "Roboto", sans-serif;
+	transition:  color 0.3s ease ;
+}
+
+a:hover {
+	color: white;
+}
+
+#profilepic {
+	border-radius: 50%;
+	border: 5px solid brown;
+	width: 300px;
+}
+
+#banner { 
+	background:white;
+	border: 5px solid sandybrown; 
+    padding: 60px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#banner p {
+	margin-bottom: 40px;
+}
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container{
+		width: 800px;
+	}
+}
+
+@media (max-width: 750px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+	}
+}
+
+
+.card-white{
+	background-color:white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	margin: 20px 0px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.img-carree{
+	border-radius: 10%;
+}
+
+.button-darkbrown{
+	background: sandybrown;
+	color: ;
+	padding: 10px 10px;
+	border-radius: 5px;
+
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #FFD43B;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
